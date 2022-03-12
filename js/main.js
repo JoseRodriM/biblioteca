@@ -4,7 +4,7 @@ let api ='?api-key=DJMf9SKpjssGAEGwMPloFXDEGLXEyefy'
 let list = document.querySelector('.books__list');
 
 
-
+//Llamada a la API
 async function getBooks(){
     try{
         const response = await fetch(url);
@@ -26,4 +26,3 @@ getBooks().then(data =>{
         list.appendChild(listItem)
     })
 })
-
