@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.title > p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.books__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.book__list-item{
+    background-color: rgb(199, 197, 197);
+    padding: 1rem 1rem;
+}
+
+.book__list-item > h3{
+    font-size: 1.8rem;
+}
+
+.book__list-item > p{
+    text-align: center;
+}
+
+.book__list-item > button{
+    border-radius: 10%;
+    box-shadow: 10px 24px 63px -23px rgba(0,0,0,0.75);
+    padding: 1rem 1rem;
+    
+}
