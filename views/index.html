@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <main class="container">
@@ -13,11 +14,27 @@
             <h1>New York Times.</h1>
             <p>Best sellers</p>
         </div>
+        <div class="log">
+            <div class="log2">
+                <button class="signIn">
+                    Sign In
+                </button>
+                <button class="register">
+                    Register
+                </button>
+            </div>
+        </div>
         <div class="books__list-container">
             <li class="books__list">
             </li>
         </div>
     </main>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
     <script src="../js/main.js"></script>
 </body>
 </html>
